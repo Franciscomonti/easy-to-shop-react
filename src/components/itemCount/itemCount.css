@@ -1,0 +1,70 @@
+.item_count {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 250px;
+    }
+
+.item_count_contador {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    margin: 5px 0px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 70px;
+    }
+
+.item_count_btn_blq_btn {
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    background: black;
+    }
+
+.item_count_btn_span {
+    color: white;
+    width: 20px;
+    text-align: center;
+    }
+
+.productos_cards_caract_btn_add {
+    margin: 5px 10px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0.5px solid transparent;
+    background-color: #efefef;
+    text-align: center;
+    display: flex; 
+    align-items: center;
+    justify-content: center;     
+    padding: 0px 5px;
+    text-decoration: none; 
+    color: black;
+    font-size: 14px;
+    }
+
+.productos_cards_caract_btn_fav {
+    margin: 5px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0.5px solid transparent ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.productos_cards_caract_btn_fav_img  {
+    width: 30px;
+    object-fit: cover;
+    }

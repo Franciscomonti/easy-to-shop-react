@@ -1,0 +1,33 @@
+
+.productos_cards_img_blq {
+    display: flex;
+    justify-content: space-between;
+}
+
+.productos_cards_blq_img_grande {
+    height: 100%;
+    display: flex;
+    background-color: #f6f6f6;
+    margin: 0px 5px;
+}
+
+.productos_cards_img_grande {
+    width: 650px;
+    height: 300px;
+    margin: auto;
+    object-fit: contain;
+}
+
+.productos_cards_blq_img_peq {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.productos_cards_img_peq {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    cursor: pointer;
+    background-color: #f6f6f6;
+}

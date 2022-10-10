@@ -1,0 +1,86 @@
+
+.productos_cards {
+    width: 90%;
+    height: 300px;
+    padding: 5px;
+    margin: 10px 20px;
+    box-shadow: 10px 10px 0px #fafafa;
+    display: flex;
+    /* justify-content: sapce-between; */
+    position: relative;
+    background-color: white;
+} 
+
+.productos_cards_caract_blq {
+    width: 400px;
+    margin: 0 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.productos_cards_caract_marca {
+    margin:0;
+    padding: 0;
+}
+
+.productos_cards_title {
+    font-size: 16px;
+    font-weight: 500;
+    margin:0;
+    padding: 0;
+}
+
+.productos_cards_caract_descrip {
+    margin:10px 0px 20px;
+    padding: 0;
+    font-size: 14px;
+    text-align: justify;
+    overflow:   hidden;
+}
+
+.productos_cards_price {
+    margin: 0;
+    padding: 0;
+}
+
+.productos_cards_price_span {
+    margin: 0;
+    padding: 0;
+}
+
+.productos_cards_caract_btn_blq {
+    height: 50px;
+    display: flex;
+}
+
+.productos_cards_caract_btn_add {
+    margin: 5px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0.5px solid transparent;
+    background-color: #efefef;
+    /* align-text: center; */
+    display: flex;  
+    align-items: center;
+    justify-content: center;    
+    padding: 0px 5px; 
+    text-decoration: none; 
+    color: black;
+    font-size: 14px;
+}
+
+
+.productos_cards_caract_btn_size {
+    margin: 5px 10px 5px 0px;
+    height: 40px;
+    width: 40px;
+    padding: 0px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0.5px solid transparent;
+}
+

@@ -1,0 +1,49 @@
+.style_navBar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 80px;
+    justify-content: space-around;
+}
+
+.style_navLogo {
+        width: 80px;
+        height: 80px;
+}
+
+
+.style_navLogo_Img {
+        height: 80px;
+        width: 150px;
+        object-fit: contain;
+}
+
+.style_nav_blq_btn  {
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+
+.style_nav_blq_btn_li {
+    list-style: none;
+    margin: 0px 20px;
+    padding: 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;    
+    text-decoration: none;             
+}
+
+.style_nav_blq_btn_li:hover{
+    color: blue;
+}
+
+.style_nav_cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+}
+

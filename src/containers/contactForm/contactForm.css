@@ -1,0 +1,36 @@
+.formulario_compra_blq {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 100px auto;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.formulario_compra_card {
+    display: flex;  
+    flex-direction: column;
+    margin: 5px 0px;
+}
+
+.formulario_compra_label {
+    cursor: pointer;
+    margin: 2px 0px;
+}
+
+.formulario_compra_input {
+    width: 500px;
+}
+
+.formulario_compra_btn {
+    margin: 20px 0px;
+    height: 40px;
+    width: 100px;
+    padding: 0px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0.5 px solid transparent;
+}

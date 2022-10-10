@@ -1,0 +1,12 @@
+.load_blq {
+    display: flex;
+    flex-direction: column;
+    margin: 300px auto;
+    width: 400px;
+    align-items: center;
+}
+
+.spinner_style {
+    width: 200px;
+    object-fit: cover;
+}
