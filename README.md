@@ -21,10 +21,12 @@ Una vez cargado el carrito se puede continuar la compra llenando un formulario d
 Al finalizar la compra se envia los datos de la compra a firebase y se muestra el id de la compra.
 
 # Importante 
-### *Dependencys:*
+### *Dependencias:*
 
 *-React*
+
 *-React-router-dom*
+
 *-FireBase*
 
 
