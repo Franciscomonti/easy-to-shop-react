@@ -23,15 +23,20 @@ Al finalizar la compra se envia los datos de la compra a firebase y se muestra e
 
 # *Captura de pantalla de la SPA*
 
-![Imagen de pantalla principal](./public/img/screenShots/home.jpg "Pantalla principal de la SPA").
+#### Pantalla principal de la SPA ####
+![Imagen de pantalla principal](./public/img/screenShots/home.jpg ).
 
-![Imagen de pantalla detalle de producto](./public/img/screenShots/productDetail.jpg "Pantalla detalle de producto").
+#### Pantalla detalle de producto ####
+![Imagen de pantalla detalle de producto](./public/img/screenShots/productDetail.jpg ).
 
-![Imagen de pantalla detalle de carrito](./public/img/screenShots/cart.jpg "Pantalla carrito de compra").
+#### Pantalla carrito de compra ####
+![Imagen de pantalla detalle de carrito](./public/img/screenShots/cart.jpg ).
 
-![Imagen de pantalla de formulario de compra](./public/img/screenShots/buyForm.jpg "Pantalla formulario de compra").
+#### Pantalla formulario de compra ####
+![Imagen de pantalla de formulario de compra](./public/img/screenShots/buyForm.jpg).
 
-![Imagen de pantalla detalle de compra](./public/img/screenShots/buyDetail.jpg "Pantalla detalle de compra").
+#### Pantalla detalle de compra ####
+![Imagen de pantalla detalle de compra](./public/img/screenShots/buyDetail.jpg).
 
 
 # Importante 
