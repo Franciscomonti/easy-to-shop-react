@@ -1,6 +1,15 @@
 import "./buyDetails.css"
+import { useContext, useEffect } from "react";
+import { CartContext } from "../../context/cartContext";
 
 const BuyDetails = (prop) => {
+
+const { vaciarCarrito } = useContext (CartContext)
+
+useEffect(() => {
+        vaciarCarrito()
+}, []);
+
 
 return(
         <div className="blq_buyDetail">

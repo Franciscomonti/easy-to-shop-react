@@ -7,7 +7,7 @@ import BuyDetails from "../../components/buyDetails/buyDetails";
 
 const ContactForm = () => {
 
-    const { cart, precioTotal, vaciarCarrito } = useContext (CartContext)
+    const { cart, precioTotal} = useContext (CartContext)
     const [ id , setId ] = useState();
     const [loadSpin, setLoadSpin] = useState(false)
     const [ userFormData, setUserFormData ] = useState ({
@@ -54,7 +54,7 @@ const ContactForm = () => {
 
                 :   typeof id !== 'undefined' ? 
             
-                    (vaciarCarrito(), <BuyDetails newOrderInfo = {newOrderInfo} id= {id} />)
+                    <BuyDetails newOrderInfo = {newOrderInfo} id= {id} />
 
                     :   <form onSubmit={submitHandler} className="formulario_compra_blq">
                             <div className="formulario_compra_card">

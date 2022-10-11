@@ -44,7 +44,7 @@ const CartPorvider = ({children}) => {
             totalProductos,
             cart
         }}>
-            {children} 
+            {children}
         </CartContext.Provider>
     )
 }
