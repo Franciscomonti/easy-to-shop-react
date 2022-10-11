@@ -59,7 +59,7 @@ const ContactForm = () => {
                     :   <form onSubmit={submitHandler} className="formulario_compra_blq">
                             <div className="formulario_compra_card">
                                 <label htmlFor="name" className="formulario_compra_label">Nombre: </label>
-                                <input autoFocus="true" type="text" name="name" id="name" placeholder="Francisco Monti" onChange={changeHandler} value={userFormData.name} className="formulario_compra_input" required/>
+                                <input autoFocus={true} type="text" name="name" id="name" placeholder="Francisco Monti" onChange={changeHandler} value={userFormData.name} className="formulario_compra_input" required/>
                             </div>
 
                             <div className="formulario_compra_card">
