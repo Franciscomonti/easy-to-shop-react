@@ -20,6 +20,20 @@ Dentro del carrito se puede acceder al detalle del producto , eliminar producto 
 Una vez cargado el carrito se puede continuar la compra llenando un formulario de compra.
 Al finalizar la compra se envia los datos de la compra a firebase y se muestra el id de la compra.
 
+
+# *Captura de pantalla de la SPA*
+
+![Imagen de pantalla principal](./public/img/screenShots/home.jpg "Pantalla principal de la SPA").
+
+![Imagen de pantalla detalle de producto](./public/img/screenShots/productDetail.jpg "Pantalla detalle de producto").
+
+![Imagen de pantalla detalle de carrito](./public/img/screenShots/cart.jpg "Pantalla carrito de compra").
+
+![Imagen de pantalla de formulario de compra](./public/img/screenShots/buyForm.jpg "Pantalla formulario de compra").
+
+![Imagen de pantalla detalle de compra](./public/img/screenShots/buyDetail.jpg "Pantalla detalle de compra").
+
+
 # Importante 
 ### *Dependencias:*
 
