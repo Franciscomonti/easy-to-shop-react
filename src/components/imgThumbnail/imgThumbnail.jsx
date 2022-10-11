@@ -1,7 +1,7 @@
 import { useState } from "react"
-import './imagenModal.css'
+import './imgThumbnail.css'
 
-const ImagenModal = ({prod})=>{
+const ImgThumbnail = ({prod})=>{
 
     const [imagenActiva, setImagenActiva] = useState(prod.portada)
 
@@ -20,6 +20,6 @@ return(
         </div>
 )};
 
-export default ImagenModal
+export default ImgThumbnail
 
 

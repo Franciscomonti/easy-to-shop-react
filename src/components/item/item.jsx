@@ -1,7 +1,7 @@
 import {useContext} from 'react'
 import { Link } from 'react-router-dom'
 import { CartContext } from '../../context/cartContext';
-import ImagenModal from '../imagenModal/imagenModal';
+import ImgThumbnail from '../imgThumbnail/imgThumbnail';
 import ItemCount from '../itemCount/itemCount';
 import './item.css'
 
@@ -16,7 +16,7 @@ const Item = ({ prod }) => {
 return(
     <div className='productos_cards'>
 
-        <ImagenModal prod={prod}/>
+        <ImgThumbnail prod={prod}/>
 
         <div className='productos_cards_caract_blq'>
             <h2 className='productos_cards_caract_marca'>{ prod.marca }</h2>
