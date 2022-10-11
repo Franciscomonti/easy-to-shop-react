@@ -1,4 +1,3 @@
-
 import React, {useState, useEffect} from 'react';
 import { useParams } from 'react-router-dom';
 import ItemDetail from '../../components/itemDetail/itemDetail';
@@ -23,8 +22,6 @@ const ItemDetailContainer = () => {
         
     }, [idProducto]);
 
-
-
 return (
         <>
             { 
@@ -34,6 +31,5 @@ return (
         </>
     );
 };
-
 
 export default ItemDetailContainer;

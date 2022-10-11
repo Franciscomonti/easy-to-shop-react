@@ -1,12 +1,11 @@
-
-import React from "react"
+import { useContext } from "react"
 import "./itemCart.css"
 import { CartContext } from "../../context/cartContext"
 import { Link } from "react-router-dom"
 
 const ItemCart = ({producto}) => {
 
-    const {removerProducto } = React.useContext(CartContext)
+    const {removerProducto } = useContext(CartContext)
     
     return(
             <div className="card-carrito">
@@ -32,6 +31,5 @@ const ItemCart = ({producto}) => {
             </div>
     )
 }
-
 
 export default ItemCart

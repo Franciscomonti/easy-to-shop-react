@@ -4,7 +4,6 @@ import { CartContext } from '../../context/cartContext';
 import ImgThumbnail from '../imgThumbnail/imgThumbnail';
 import ItemCount from '../itemCount/itemCount';
 
-
 const ItemDetail = ({ producto }) => {
 
     const {agregarProducto, estaEnCarrito} = useContext(CartContext)

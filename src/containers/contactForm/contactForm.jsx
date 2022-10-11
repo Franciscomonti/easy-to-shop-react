@@ -1,4 +1,3 @@
-
 import { addDoc, collection, getFirestore } from "firebase/firestore";
 import { useState,useContext } from "react";
 import { CartContext } from "../../context/cartContext";
